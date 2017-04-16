@@ -2,6 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
+AM_INIT_AUTOMAKE([foreign])
 AC_INIT([jmath], [1.0], [joel@joelburton.com])
 AC_CONFIG_SRCDIR([src])
 AC_CONFIG_HEADERS([config.h])
